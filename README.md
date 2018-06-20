@@ -1,17 +1,17 @@
 ## ISEC workshop: Combining different data types in a single model
 
-This repo contains information and materials for the ISEC workshop 'Combining different data types in a single model' 29th June 2018
+This repo contains information and materials for the ISEC workshop 'Combining different data types in a single model' 29th June 2018.
+See the (draft) program for the day [here](https://docs.google.com/document/d/1j_arfcNETRIf7pmsJ3fZxuWrI4XWUzdJJjyMIh5bIkc/edit?usp=sharing).
+The rest of this page contains information and materials about the three workshop tutorials.
 
-
-## program
-Here's a link to the draft program for the day: [link](https://docs.google.com/document/d/1j_arfcNETRIf7pmsJ3fZxuWrI4XWUzdJJjyMIh5bIkc/edit?usp=sharing)
+---
 
 ### *Rahel Sollman* - **Combining spatial capture-recapture, telemetry, and point count data**
 
 Rahel will talk about how to integrate abundance and individual location data into spatial capture-recapture models to estimate animal abundance.
 Rahel will walk us through how to carry out these analyses using the `oSCR` package ([Github](https://github.com/jaroyle/oSCR)).
 
-### installation
+#### installation
 
 You can download the most recent version of `oSCR` from GitHub, using the `devtools` package (which is on CRAN).
 
@@ -22,7 +22,7 @@ devtools::install_github("jaroyle/oSCR")
 ```
 If you're a Windows user and this the first time you've tried installing a package from GitHub, you may need to install the [RTools software](https://cran.r-project.org/bin/windows/Rtools/) (note: this is not an R package), which provides the tools you need to build packages from source code.
 
-### examples
+#### examples
 
 [ materials to be added ]
 
