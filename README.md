@@ -36,11 +36,16 @@ A paper introducing momentuHMM is freely available at Methods in Ecology and Evo
 
 #### installation
 
-To get started, you will need to load R and install the `momentuHMM` package.
-There's a version of momentuHMM on CRAN, but we recommend you install the development version from GitHub instead.
+To get started, you will need to load R and install the latest version of the `momentuHMM` package from CRAN.
 
 ```r
-devtools::install_github("bmcclintock/momentuHMM@develop")
+install.packages("momentuHMM")
+```
+
+To run the main example, you'll also need to install the setRNG package from CRAN.
+
+```r
+install.packages("setRNG")
 ```
 
 #### examples
