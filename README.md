@@ -32,12 +32,12 @@ If you're a Windows user and this the first time you've tried installing a packa
 
 Brett will be talking about using Hidden Markov Models to combine movement data with other data streams to infer behavioural states of animals.
 Brett and Theo Michelot developed the `momentuHMM` package ([CRAN](https://CRAN.R-project.org/package=momentuHMM), [GitHub](https://github.com/bmcclintock/momentuHMM)) to make it easier to do these types of analyses.
-A paper introducing momentuHMM is freely available at Methods in Ecology and Evolution [pdf](https://besjournals.onlinelibrary.wiley.com/doi/epdf/10.1111/2041-210X.12995)
+A paper introducing momentuHMM is freely available at Methods in Ecology and Evolution ([pdf](https://besjournals.onlinelibrary.wiley.com/doi/epdf/10.1111/2041-210X.12995)).
 
 #### installation
 
 To get started, you will need to load R and install the `momentuHMM` package.
-There's a version of momentuHMM on CRAN, but we recommend you try to install the development version from GitHub instead.
+There's a version of momentuHMM on CRAN, but we recommend you install the development version from GitHub instead.
 
 ```r
 devtools::install_github("bmcclintock/momentuHMM@develop")
@@ -50,14 +50,14 @@ You can download the code for the Northern Fur Seal example analysis [here](http
 (you can either copy-paste the code into a file, or go to `save page as ...` in your browser)
 
 There are a couple of more advanced example analyses that you can download and play with, and that Brett might have time to talk about:
- - Turtles [link](https://raw.githubusercontent.com/bmcclintock/momentuHMM/master/vignettes/turtleExample.R)
- - Northern Fulmars [link](https://raw.githubusercontent.com/bmcclintock/momentuHMM/master/vignettes/northernFulmarExample.R) 
+ - Modelling turtles with position uncertainty ([link](https://raw.githubusercontent.com/bmcclintock/momentuHMM/master/vignettes/turtleExample.R))
+ - Modelling Northern Fulmars with position uncertainty ([link](https://raw.githubusercontent.com/bmcclintock/momentuHMM/master/vignettes/northernFulmarExample.R)) 
 
 ---
 
 ### *Bob O’Hara* - **Combining presence-only, presence-absence and abundance data with point-process models**
 
-Bob will talk about combining different types of species distribution data together in a single point process model of the species distribution.
+Bob will talk about combining different types of distribution data together in a single point process model of a species' distribution.
 Bob has developed a package `PointedSDMS` ([GitHub](https://github.com/oharar/PointedSDMs)) to fit these models using the [INLA](http://www.r-inla.org/) inference software.
 
 #### installation
