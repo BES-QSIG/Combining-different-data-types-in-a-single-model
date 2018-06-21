@@ -36,7 +36,7 @@ A paper introducing momentuHMM is freely available at Methods in Ecology and Evo
 
 #### installation
 
-To get started, you will need to load R and install the latest version of the `momentuHMM` package from CRAN.
+To get started, you will need to load R and install the `momentuHMM` package from CRAN.
 
 ```r
 install.packages("momentuHMM")
@@ -50,13 +50,13 @@ install.packages("setRNG")
 
 #### examples
 
-The main example Brett will work through is an analysis of Northern Fur Seal foraging trips.
+The main example Brett will work through is an analysis of Northern Fur Seal foraging trips with position uncertainty.
 You can download the code for the Northern Fur Seal example analysis [here](https://raw.githubusercontent.com/bmcclintock/momentuHMM/master/vignettes/nfsExample.R)
 (you can either copy-paste the code into a file, or go to `save page as ...` in your browser)
 
 There are a couple of more advanced example analyses that you can download and play with, and that Brett might have time to talk about:
- - Modelling turtles with position uncertainty ([link](https://raw.githubusercontent.com/bmcclintock/momentuHMM/master/vignettes/turtleExample.R))
- - Modelling Northern Fulmars with position uncertainty ([link](https://raw.githubusercontent.com/bmcclintock/momentuHMM/master/vignettes/northernFulmarExample.R)) 
+ - Modelling Loggerhead Turtle movements relative to ocean currents with position uncertainty ([link](https://raw.githubusercontent.com/bmcclintock/momentuHMM/master/vignettes/turtleExample.R))
+ - Modelling Northern Fulmar movements relative to fishing vessels ([link](https://raw.githubusercontent.com/bmcclintock/momentuHMM/master/vignettes/northernFulmarExample.R)) 
 
 ---
 
