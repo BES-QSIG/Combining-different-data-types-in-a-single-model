@@ -34,7 +34,7 @@ install.packages(scrbook_url, repos = NULL)
 #### examples
 
 Rahel's example will use synthetic data representing species counts from a spatial capture-recapture design, combined with data on the positions of individuals from telemetry.
-You can download the code for the example analysis [here](https://raw.githubusercontent.com/BES-QSIG/Combining-different-data-types-in-a-single-model/master/scripts/sollmann_workshop_script.R)
+You can **download the code for the example analysis [here](https://raw.githubusercontent.com/BES-QSIG/Combining-different-data-types-in-a-single-model/master/scripts/sollmann_workshop_script.R)**
 (you can either copy-paste the code into a file, or go to `save page as ...` in your browser)
 
 ---
@@ -62,7 +62,7 @@ install.packages("setRNG")
 #### examples
 
 The main example Brett will work through is an analysis of Northern Fur Seal foraging trips with position uncertainty.
-You can download the code for the Northern Fur Seal example analysis [here](https://raw.githubusercontent.com/bmcclintock/momentuHMM/master/vignettes/nfsExample.R)
+You can **download the code for the Northern Fur Seal example analysis [here](https://raw.githubusercontent.com/bmcclintock/momentuHMM/master/vignettes/nfsExample.R)**
 (you can either copy-paste the code into a file, or go to `save page as ...` in your browser)
 
 There are a couple of more advanced example analyses that you can download and play with, and that Brett might have time to talk about:
