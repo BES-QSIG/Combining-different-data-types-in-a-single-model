@@ -13,18 +13,29 @@ Rahel will walk us through how to carry out these analyses using the `oSCR` pack
 
 #### installation
 
-You can download the most recent version of `oSCR` from GitHub, using the `devtools` package (which is on CRAN).
+You can download the most recent version of `oSCR` from GitHub, using the `devtools` package (which is on CRAN), and you'll also need to manually install the `car` package from CRAN.
 
 ```r
 # install devtools if you don't already have it installed, with:
 # install.packages("devtools")
 devtools::install_github("jaroyle/oSCR")
+install.packages("car")
 ```
 If you're a Windows user and this the first time you've tried installing a package from GitHub, you may need to install the [RTools software](https://cran.r-project.org/bin/windows/Rtools/) (note: this is not an R package), which provides the tools you need to build packages from source code.
 
+Rahel's example also requires the scrbook package for plotting, which is hosted on [the developers' own website](https://sites.google.com/site/spatialcapturerecapture/scrbook-r-package), you should also be able to install `scrbook` with the following commmands:
+```r
+ext <- ifelse(.Platform$OS.type == "windows", ".zip", ".tar.gz")
+scrbook_url <- paste0("https://sites.google.com/site/spatialcapturerecapture/scrbook-r-package/scrbook_0.28-2",
+                      ext)
+install.packages(scrbook_url, repos = NULL)
+```
+
 #### examples
 
-[ materials to be added ]
+Rahel's example will use synthetic data representing species counts from a spatial capture-recapture design, combined with data on the positions of individuals from telemetry.
+You can download the code for the example analysis [here](https://raw.githubusercontent.com/BES-QSIG/Combining-different-data-types-in-a-single-model/master/scripts/sollmann_workshop_script.R)
+(you can either copy-paste the code into a file, or go to `save page as ...` in your browser)
 
 ---
 

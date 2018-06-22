@@ -4,19 +4,8 @@
 ###Royle, J. Andrew, Richard B. Chandler, Catherine C. Sun, and Angela K. Fuller. "Integrating resource selection information with spatial capture-recapture." 
 ###Methods in Ecology and Evolution 4, no. 6 (2013): 520-530.
 
-##had to install these packages separately
-
-#install.packages("devtools")
-#install.packages("car")
-#install.packages("FNN")
-
-library(raster)
-library(scrbook)
-library(FNN)
-library(devtools)
-
-#install_github("jaroyle/oSCR")
 library(oSCR)
+library(scrbook)
 
 #################################################################################################
 ###### PART 1 - Telemetry in sparse data situations ##############################################
@@ -233,7 +222,7 @@ plot(dsurf2$r[[1]])
 ###########################################################################################
 #### analyze simulated data with spatial covariate ########################################
 
-source("DataSimFun.R")
+source("https://raw.githubusercontent.com/BES-QSIG/Combining-different-data-types-in-a-single-model/master/scripts/sollmann_data_sim_fun.R")
 ## This function simulates SCR and telemetry data as above with the specified input on a 
 ## discrete state-space of size 37 by 37, with 49 traps, spaced by 2 units, in the middle.
 ## It also simulates a spatially correlated covariate.
@@ -314,7 +303,6 @@ fit3z <- oSCR.fit(scrFrame=sftel,ssDF=list(ssDF),DorN="D",encmod="CLOG",
                  rsfDF=list(rsfDF),RSF=TRUE,telemetry="dep",
                  trimS = 7,
                  model=list(D~1,p0~z,sigma~1))
-
 
 # Here we fit the SCR model with RSF = FALSE, which only uses the
 # telemetry data to inform about 'sigma' NOT the RSF parameters
