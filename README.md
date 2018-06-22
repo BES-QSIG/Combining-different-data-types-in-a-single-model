@@ -23,7 +23,7 @@ install.packages("car")
 ```
 If you're a Windows user and this the first time you've tried installing a package from GitHub, you may need to install the [RTools software](https://cran.r-project.org/bin/windows/Rtools/) (note: this is not an R package), which provides the tools you need to build packages from source code.
 
-Rahel's example also requires the scrbook package for plotting, which is hosted on [the developers' own website](https://sites.google.com/site/spatialcapturerecapture/scrbook-r-package), you should also be able to install `scrbook` with the following commmands:
+Rahel's example also requires the `scrbook` package for some plotting functions. `scrbook` is hosted on [the developers' own website](https://sites.google.com/site/spatialcapturerecapture/scrbook-r-package), and you should also be able to install it with the following commmands:
 ```r
 ext <- ifelse(.Platform$OS.type == "windows", ".zip", ".tar.gz")
 scrbook_url <- paste0("https://sites.google.com/site/spatialcapturerecapture/scrbook-r-package/scrbook_0.28-2",
