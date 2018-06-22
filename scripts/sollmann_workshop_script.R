@@ -1,4 +1,5 @@
 ###This is an R script that demonstrates how to integrate telemetry data with SCR models using oSCR.
+###It was written by Rahel Sollman, with minor edits by Nick Golding. 
 ###It is based on code developed by A. Royle and D. Linden (https://rdrr.io/github/jaroyle/oSCR/man/telemetry.html)
 ###The original ML code is a modification from the Supplement in 
 ###Royle, J. Andrew, Richard B. Chandler, Catherine C. Sun, and Angela K. Fuller. "Integrating resource selection information with spatial capture-recapture." 
