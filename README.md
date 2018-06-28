@@ -92,4 +92,7 @@ install.packages("INLA", repos = "https://inla.r-inla-download.org/R/stable"))
 
 #### examples
 
-[ materials to be added ]
+Bob will work through a species distribution modelling analysis of New Zealand's Solitary Tinamou, using distribution data from multiple sources.
+This analysis is provided as a vignette in the package, and **you can download the code for the Solitary Tinamou analysis [here](https://raw.githubusercontent.com/goldingn/PointedSDMs/master/vignettes/SolitaryTinomou.R)** 
+
+
