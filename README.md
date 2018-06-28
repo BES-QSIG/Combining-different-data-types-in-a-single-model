@@ -90,6 +90,11 @@ You'll also need to install INLA from the INLA team's own repository, using the 
 install.packages("INLA", repos = "https://inla.r-inla-download.org/R/stable"))
 ```
 
+You'll need the following packages from CRAN to run the example too:
+```r
+install.packages(c("spatstat", "RColorBrewer", "mapview"))
+```
+
 #### examples
 
 Bob will work through a species distribution modelling analysis of New Zealand's Solitary Tinamou, using distribution data from multiple sources.
