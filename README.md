@@ -9,6 +9,7 @@ The rest of this page contains information and materials about the three worksho
 ### *Rahel Sollman* - **Combining spatial capture-recapture, telemetry, and point count data**
 
 Rahel will talk about how to integrate abundance and individual location data into spatial capture-recapture models to estimate animal abundance.
+You can download Rahel's slides [here](https://github.com/BES-QSIG/Combining-different-data-types-in-a-single-model/blob/master/presentations/rahel_sollman_scr_telemetry.pdf).
 Rahel will walk us through how to carry out these analyses using the `oSCR` package ([Github](https://github.com/jaroyle/oSCR)).
 
 #### installation
@@ -42,6 +43,7 @@ You can **download the code for the example analysis [here](https://raw.githubus
 ### *Brett McClintock* - **Combining animal movement and environmental data with hidden Markov models**
 
 Brett will be talking about using Hidden Markov Models to combine movement data with other data streams to infer behavioural states of animals.
+You can download Brett's slides [here](https://github.com/BES-QSIG/Combining-different-data-types-in-a-single-model/blob/master/presentations/brett_mcclintock_hmm.pdf).
 Brett and Theo Michelot developed the `momentuHMM` package ([CRAN](https://CRAN.R-project.org/package=momentuHMM), [GitHub](https://github.com/bmcclintock/momentuHMM)) to make it easier to do these types of analyses.
 A paper introducing momentuHMM is freely available at Methods in Ecology and Evolution ([pdf](https://besjournals.onlinelibrary.wiley.com/doi/epdf/10.1111/2041-210X.12995)).
 
