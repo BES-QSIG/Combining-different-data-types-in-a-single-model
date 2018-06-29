@@ -10,6 +10,7 @@ The rest of this page contains information and materials about the three worksho
 
 Rahel will talk about how to integrate abundance and individual location data into spatial capture-recapture models to estimate animal abundance.
 You can download Rahel's slides [here](https://github.com/BES-QSIG/Combining-different-data-types-in-a-single-model/blob/master/presentations/rahel_sollman_scr_telemetry.pdf).
+[This paper](https://esajournals.onlinelibrary.wiley.com/doi/full/10.1002/ecs2.2203) by Linden *et al.* is another good reference.
 Rahel will walk us through how to carry out these analyses using the `oSCR` package ([Github](https://github.com/jaroyle/oSCR)).
 
 #### installation
